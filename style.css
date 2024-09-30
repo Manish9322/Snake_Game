@@ -1,18 +1,33 @@
 /* Import Google font */
-@import url('https://font.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap');
+
 *{
 margin:0;
 padding: 0;
 box-sizing: border-box;
-font-family: 'Open Sans',sans-serif;
+font-family: 'Raleway',sans-serif;
 }
-.body{
+
+body{
+background: #e3f2fd;
+
+}
+
+/* .body{
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	min-height: 100vh;
 	background: #E3F2FD;
+} */
+
+h2{
+	text-align: center;
+	font-size: 5rem;
+	margin: 2rem;
+	color: #FF003D;
 }
+
 .wrapper{
 	width: 65vmin;
 	height: 70vmin;
@@ -21,6 +36,7 @@ font-family: 'Open Sans',sans-serif;
 	flex-direction: column;
 	border-radius: 5px;
 	background: #293447;
+	margin: 0 auto;
 }
 .game-details{
 	color: #B8C6DC;
